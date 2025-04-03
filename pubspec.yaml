@@ -1,0 +1,77 @@
+name: grocery_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.16.0 <3.0.0'
+
+dependencies: 
+  # cupertino_icons:
+  # get: 
+  # flutter_screenutil: 
+  # shared_preferences: 
+  # flutter_launcher_icons: 
+  # change_app_package_name:
+  # rename_app:
+  # flutter_svg:
+  # carousel_slider:
+  # badges: 
+  # flutter_animate:
+
+  flutter: 
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  flutter_screenutil: ^5.9.3
+  shared_preferences: ^2.5.3
+  flutter_launcher_icons: ^0.14.3
+  change_app_package_name: ^1.5.0
+  rename_app: ^1.6.2
+  flutter_svg: ^2.0.17
+  carousel_slider: ^5.0.0
+  badges: ^3.1.2
+  flutter_animate: ^4.5.2
+
+dev_dependencies:
+  mockito:
+  flutter_lints:
+
+  integration_test:
+    sdk: flutter
+
+  flutter_test: 
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/app_icon_foreground.png"
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/vectors/
+    - assets/fonts/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 700
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+          weight: 300
+        - asset: assets/fonts/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+          weight: 900
+
