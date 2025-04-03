@@ -1,7 +1,3 @@
-Here's your rephrased version with a more polished and engaging tone:  
-
----
-
 # **Flutter Grocery App**  
 
 A **Flutter UI Kit** for a seamless grocery shopping experience! 🚀  
